@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #define LIMIT 10
 
@@ -8,7 +7,7 @@ static int i = 0;
 
 while (i < LIMIT)
 {
-  printf("main() call #%d", ++i);
+  printf("main() call #%d\n", ++i);
   main();
 }
 
